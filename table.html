@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex justify-center items-center min-h-screen bg-gray-100">
+
+    <div class="overflow-x-auto">
+        <table class="border-collapse border border-black bg-white shadow-lg">
+            <thead>
+                <tr class="bg-gray-300">
+                    <th class="border border-gray-400 px-4 py-2">Day</th>
+                    <th class="border border-gray-400 px-4 py-2">Time</th>
+                    <th class="border border-gray-400 px-4 py-2">Topic</th>
+                    <th class="border border-gray-400 px-4 py-2">Room</th>
+                    <th class="border border-gray-400 px-4 py-2">Speaker</th>
+                </tr>
+            </thead>
+            <tbody>
+            
+                <tr class="hover:bg-gray-100">
+                    <td class="border border-gray-400 px-4 py-2" rowspan="2">Monday</td>
+                    <td class="border border-gray-400 px-4 py-2">9:00 AM - 10:30 AM</td>
+                    <td class="border border-gray-400 px-4 py-2">Artificial Intelligence</td>
+                    <td class="border border-gray-400 px-4 py-2">Hall A</td>
+                    <td class="border border-gray-400 px-4 py-2">Dr. Smith</td>
+                </tr>
+                <tr class="hover:bg-gray-100">
+                    <td class="border border-gray-400 px-4 py-2">11:00 AM - 12:30 PM</td>
+                    <td class="border border-gray-400 px-4 py-2">Artificial Intelligence</td>
+                    <td class="border border-gray-400 px-4 py-2">Hall B</td>
+                    <td class="border border-gray-400 px-4 py-2">Dr. Johnson</td>
+                </tr>
+                <tr class="hover:bg-gray-100">
+                    <td class="border border-gray-400 px-4 py-2 text-center" colspan="4">Networking & Break</td>
+                    <td class="border border-gray-400 px-4 py-2 text-center">-</td>
+                </tr>
+
+               
+                <tr class="hover:bg-gray-100">
+                    <td class="border border-gray-400 px-4 py-2" rowspan="2">Tuesday</td>
+                    <td class="border border-gray-400 px-4 py-2">9:00 AM - 10:30 AM</td>
+                    <td class="border border-gray-400 px-4 py-2">Cybersecurity</td>
+                    <td class="border border-gray-400 px-4 py-2">Hall C</td>
+                    <td class="border border-gray-400 px-4 py-2">Dr. Brown</td>
+                </tr>
+                <tr class="hover:bg-gray-100">
+                    <td class="border border-gray-400 px-4 py-2">11:00 AM - 12:30 PM</td>
+                    <td class="border border-gray-400 px-4 py-2">Quantum Computing</td>
+                    <td class="border border-gray-400 px-4 py-2">Hall D</td>
+                    <td class="border border-gray-400 px-4 py-2">Dr. Adams</td>
+                </tr>
+                <tr class="hover:bg-gray-100">
+                    <td class="border border-gray-400 px-4 py-2 text-center" colspan="3">Quantum Computing</td>
+                    <td class="border border-gray-400 px-4 py-2">Hall E</td>
+                    <td class="border border-gray-400 px-4 py-2">Dr. Blake</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
